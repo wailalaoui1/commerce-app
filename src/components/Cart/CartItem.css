@@ -1,0 +1,10 @@
+.cart-it {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.operators {
+    font-size: 20px;
+}

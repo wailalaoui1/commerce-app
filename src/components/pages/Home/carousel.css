@@ -1,0 +1,63 @@
+.cs2 {
+    position: 'absolute' !important;
+    bottom: 20% !important;
+    left: 60% !important;
+    right: 0px !important;
+}
+
+.cs {
+    position: 'absolute' !important;
+    bottom: 0% !important;
+    left: 12% !important;
+    right: 0% !important;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .cs {
+        left: 13% !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .buy-btn {
+        font-size: 14px !important;
+        width: 110px !important;
+        height: 30px !important;
+    }
+
+    .cs {
+        left: 13% !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cs {
+        left: 16% !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cs .buy-btn {
+        width: 60px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+        /* margin-left: 62px !important; */
+    }
+    .cs2 .buy-btn {
+        width: 60px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

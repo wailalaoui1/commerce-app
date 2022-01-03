@@ -1,0 +1,86 @@
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-row { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column-3 {
+    width: 400px;
+    height: 400px;
+    margin-right: 80px;
+}
+
+.column-2 {
+    width: 400px;
+}
+
+.c-h1 {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.c-h4 {
+    font-size: 20px;
+}
+
+.c-p {
+    font-weight: 700;
+    width: 400px;
+
+}
+
+.c-img {
+    width: 100%;
+    margin: 30px;
+    border-radius: 15px;
+    
+}
+
+.column-2 .c-h1,.c-h4,.c-p {
+    margin: 30px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .my-row {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .column-3  {
+        width: 300px;
+        border-radius: 15px;       
+    }
+
+    .column-2 {
+        width: 300px;
+    }
+
+    .c-h1 {
+        font-size: 30px;
+    }
+
+    .c-h4 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .c-p {
+        font-weight: 500;
+        width: 200px;
+    
+    } 
+
+}

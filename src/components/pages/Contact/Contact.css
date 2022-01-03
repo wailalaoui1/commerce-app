@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cont-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.c-t {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+.c-svg {
+    width: 100%;
+}
+
+.mb-3 {
+    /* margin-top: 60px; */
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 660px) {
+    .cont-img {
+        width: 450px;
+    }
+}

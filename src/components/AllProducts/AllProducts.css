@@ -1,0 +1,83 @@
+.p-heading {
+    display: flex;
+    font-family: 'Abril Fatface', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.ic {
+    width: 55px;
+    padding: 3px;
+}
+
+.s-icon {
+    margin: 10px;
+}
+
+.p-btn {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #fff;
+    transition: 0.5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+
+}
+.p-btn:hover {
+    background-color: #f06c79;   
+}
+
+.p-title {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.box-container {
+    margin: 0;
+}
+
+.detail-box .type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-title, .my-price {
+    margin-bottom: 0 !important;
+    padding: 10px;
+}
+
+@media screen and (max-width: 860px) {
+    .box-container {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+
+    .my-box {
+        min-width: 300px;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+
+
