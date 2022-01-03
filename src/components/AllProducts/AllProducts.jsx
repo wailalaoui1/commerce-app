@@ -59,7 +59,7 @@ const AllProducts = ({ onAddToCart, products, categories }) => {
                                 <div className='my-box'>
                                     {/* image box */}
                                     <div className='slide-image'>
-                                        <img src={product.image.url} alt={product.name} />
+                                        <img className='s-img' src={product.image.url} alt={product.name} />
                                         <div className='my-overlay'>
                                             <Link to={`/productdetails/${product.id}`} className='buy-btn'>View Product</Link>
                                             <button onClick={() => onAddToCart(product.id, 1)} className='buy-btn'>Add To Cart</button>
